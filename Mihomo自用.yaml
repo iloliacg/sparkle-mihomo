@@ -37,15 +37,6 @@ skip-auth-prefixes:
   - 127.0.0.1/8
   - ::1/128
 
-geodata-mode: false
-geodata-loader: standard
-geo-auto-update: true
-geo-update-interval: 48
-geox-url:
-  geosite: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
-  mmdb: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.metadb"
-  geoip: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.dat"
-  asn: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/GeoLite2-ASN.mmdb"
 
 # 控制面板
 external-controller: 0.0.0.0:9090
