@@ -93,9 +93,14 @@ tun:
   auto-detect-interface: true
 
   bypass:
-    - ko.exe
+    # PSO2
+    - pso2.exe
     - pso2launcher.exe
+    - pso2_bin.exe
+
+    # Path of Exile
     - PathOfExile.exe
+    - PathOfExile_x64.exe
 
 # DNS模块（已修复 fake-ip-filter 的 rule-set 写法）
 dns:
