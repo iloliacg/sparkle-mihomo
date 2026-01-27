@@ -91,7 +91,7 @@ sniffer:
 # 代理模式
 tun:
   enable: true
-  stack: gvisor
+  stack: Mixed
   mtu: 9000
   dns-hijack:
     - "any:53"
@@ -108,7 +108,7 @@ dns:
   prefer-h3: false
   respect-rules: true
   enhanced-mode: fake-ip
-  fake-ip-range: 28.0.0.1/8
+  fake-ip-range: 198.18.0.1/16
   fake-ip-filter-mode: blacklist
   fake-ip-filter:
     - rule-set:fakeip_filter_domain
@@ -133,17 +133,9 @@ dns:
     - rule-set:private_domain
     - rule-set:cn_domain
   default-nameserver:
-    - 119.29.29.29
-    - 180.184.1.1
-  proxy-server-nameserver:
-    - https://doh.pub/dns-query
-    - https://223.5.5.5/dns-query#h3=true
-  direct-nameserver:
-    - https://doh.pub/dns-query
-    - https://223.5.5.5/dns-query#h3=true
+    - 192.168.10.1
   nameserver:
-    - https://dns.google/dns-query
-    - https://dns.cloudflare.com/dns-query
+    - https://hk.pms.loc.cc/dohgo
 
 ##############################################
 # 策略组（不写 proxies，全部靠 include-all 吃订阅节点）
