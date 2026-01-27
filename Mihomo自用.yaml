@@ -82,7 +82,7 @@ sniffer:
 # 代理模式
 tun:
   enable: true
-  ipv6: true
+  ipv6: false
   stack: Mixed
   mtu: 9000
   dns-hijack:
