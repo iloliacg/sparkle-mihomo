@@ -92,6 +92,11 @@ tun:
   auto-redirect: true
   auto-detect-interface: true
 
+  bypass:
+    - ko.exe
+    - pso2launcher.exe
+    - PathOfExile.exe
+
 # DNS模块（已修复 fake-ip-filter 的 rule-set 写法）
 dns:
   enable: true
