@@ -83,7 +83,7 @@ sniffer:
 tun:
   enable: true
   ipv6: false
-  stack: Mixed
+  stack: system
   mtu: 9000
   dns-hijack:
     - "any:53"
@@ -94,10 +94,8 @@ tun:
 
   bypass:
     # PSO2
-    - pso2.exe
     - pso2launcher.exe
-    - pso2_bin.exe
-
+    
     # Path of Exile
     - PathOfExile.exe
     - PathOfExile_x64.exe
