@@ -111,6 +111,7 @@ dns:
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter-mode: blacklist
   fake-ip-filter:
+    - "*.poecdn.com"
     - rule-set:fakeip_filter_domain
     - rule-set:game_cn_domain
     - rule-set:bank_cn_domain
