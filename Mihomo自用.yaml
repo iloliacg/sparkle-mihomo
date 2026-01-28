@@ -83,7 +83,6 @@ sniffer:
 tun:
   enable: true
   ipv6: false
-  strict-route: true
   stack: system
   mtu: 9000
   dns-hijack:
