@@ -138,10 +138,6 @@ dns:
     - 119.29.29.29
   nameserver:
     - https://hk.pms.loc.cc/dohgo
-  proxy-server-nameserver:
-    - https://hk.pms.loc.cc/dohgo
-  direct-nameserver:
-    - https://hk.pms.loc.cc/dohgo
 
     
 ##############################################
