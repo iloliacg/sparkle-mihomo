@@ -25,7 +25,7 @@ global-ua: clash.meta
 
 # 全局配置
 mixed-port: 7890
-ipv6: true
+ipv6: false
 allow-lan: true
 unified-delay: true
 tcp-concurrent: true
