@@ -83,8 +83,11 @@ sniffer:
 tun:
   enable: true
   ipv6: false
-  stack: system
-  mtu: 9000
+  auto-route: true
+  auto-redirect: true
+  auto-detect-interface: true
+  stack: Mixed
+  mtu: 1500
   dns-hijack:
     - "any:53"
     - "tcp://any:53"
