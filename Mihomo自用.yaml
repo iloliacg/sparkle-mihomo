@@ -131,8 +131,7 @@ dns:
     - rule-set:apple_firmware_domain
     - rule-set:iptv_domain
     - rule-set:private_domain
-    - rule-set:cn_domain
-    
+    - rule-set:cn_domain   
   default-nameserver:
     - 223.5.5.5
     - 119.29.29.29
