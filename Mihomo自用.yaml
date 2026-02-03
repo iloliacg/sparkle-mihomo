@@ -136,7 +136,8 @@ dns:
     - 223.5.5.5
     - 119.29.29.29
   nameserver:
-    - https://hk.pms.loc.cc/dohgo
+    - https://cn-05.api.vlo.cc/tls-cx
+    - https://cn-09.api.vlo.cc/tls-cx
     
 ##############################################
 # 策略组（不写 proxies，全部靠 include-all 吃订阅节点）
