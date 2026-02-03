@@ -139,8 +139,6 @@ dns:
     - https://hk.pms.loc.cc/dohgo
   proxy-server-nameserver:
     - https://hk.pms.loc.cc/dohgo
-  direct-nameserver:
-    - https://hk.pms.loc.cc/dohgo
     
 ##############################################
 # 策略组（不写 proxies，全部靠 include-all 吃订阅节点）
