@@ -105,7 +105,7 @@ dns:
   listen: 0.0.0.0:1053
   ipv6: true
   prefer-h3: false
-  respect-rules: true
+  respect-rules: false
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter-mode: blacklist
@@ -136,8 +136,6 @@ dns:
     - 223.5.5.5
     - 119.29.29.29
   nameserver:
-    - https://hk.pms.loc.cc/dohgo
-  proxy-server-nameserver:
     - https://hk.pms.loc.cc/dohgo
     
 ##############################################
